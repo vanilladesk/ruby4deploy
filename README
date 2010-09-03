@@ -1,22 +1,32 @@
 ABOUT
 -----
-Set of scripts/tools helping to install and maintain MongoDB.
+Set of scripts/tools helping to install Ruby and useful tools.
 
+ * install Ruby 1.9.2
+ * install Phusion Passenger (aka modrails) - Apache & Nginx module
+   for running Ruby/Rails applications
+
+   
 HOW TO INSTALL
 --------------
 
-Simple - run install.sh
+To install Ruby - run install_ruby.sh
 
 Install script will 
- a) download necessary archive from MongoDB downloads
- b) install MongoDB in /usr/local/lib
- c) create default configuration file in /etc/mongodb/mongod.conf
- d) create 'mongodb' system user, which will be used to run daemon
- e) create default database folder in /var/lib/mongodb
- f) create init.d start/stop script
- g) register init.d script in rc.d so MongoDB is started automatically
+ a) download selected (see in the script) Ruby version
+ b) install selected Ruby
+ c) rename existing (if any) Ruby tools so newly installed Ruby tools
+    can be used instead
+ d) create symlinks to /usr/local/bin so Ruby and its tools can be
+    accessed directly
 
+To install Passenger - run install_passenger.sh
+
+Install script will 
+ a) try to install Phusion Passenger using ruby-gems system
+
+ 
 HOW TO USE
 ----------
 
-Follow documentation in MongoDB wiki http://www.mongodb.org/display/DOCS/Home.
+Follow Ruby documentation.
