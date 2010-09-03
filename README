@@ -6,6 +6,12 @@ Set of scripts/tools helping to install Ruby and useful tools.
  * install Phusion Passenger (aka modrails) - Apache & Nginx module
    for running Ruby/Rails applications
 
+COPYRIGHT AND LICENSE
+---------------------
+
+Copyright (c) 2010 Vanilladesk Ltd. http://www.vanilladesk.com
+
+See file LICENSE for details on license.
    
 HOW TO INSTALL
 --------------
