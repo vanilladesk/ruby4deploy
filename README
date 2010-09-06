@@ -16,7 +16,7 @@ See file LICENSE for details on license.
 HOW TO INSTALL
 --------------
 
-To install Ruby - run install_ruby.sh
+To install Ruby - run install.sh
 
 Install script will 
  a) download selected (see in the script) Ruby version
